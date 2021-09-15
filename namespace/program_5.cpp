@@ -22,10 +22,12 @@ namespace sample3{
         return a + b;
     }
 }
-
+ 
+ 
+int x = 23;
 int main()
 {
-    int x = 23;
+    
     sample1::print(x);
     using sample2::x;
     cout<<"X = "<<x<<endl;
